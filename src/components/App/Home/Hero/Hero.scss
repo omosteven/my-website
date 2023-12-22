@@ -33,9 +33,16 @@
         font-size: 32px;
       }
     }
+    a {
+      text-decoration: none !important;
+    }
     p {
       color: $white-muted-color;
       line-height: 30px;
+      height: 100px;
+      @media screen and (max-width: $small-screen) {
+        height: 150px;
+      }
       // span {
       //   // font-weight: bold;
       // }

@@ -4,7 +4,7 @@ import HeroInfo from "./HeroInfo/HeroInfo";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <HeroInfo />
       <HeroImage />
     </section>

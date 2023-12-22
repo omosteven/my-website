@@ -1,0 +1,18 @@
+@import "components/ui/_variables";
+
+.learning{
+    padding: 40px;
+    height: fit-content;
+    background-color: $background-color;
+    @media screen and (max-width: $medium-screen) {
+      padding: 24px;
+    }
+    h1 {
+      color: $white-color;
+    }
+    p {
+      color: $white-muted-color;
+      // max-width: 500px;
+      line-height: 20px;
+    }
+}

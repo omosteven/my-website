@@ -1,5 +1,6 @@
 import { qoutes } from "assets/data";
 import { Button } from "components/ui";
+import { scrollToView } from "helpers";
 import { useEffect, useState } from "react";
 
 const HeroInfo = () => {
@@ -14,8 +15,8 @@ const HeroInfo = () => {
 
   return (
     <div className="hero-info">
-      <h1>Software Engineer/Robotics Engineer(Becoming)</h1>
-      <h2>
+      <h1 data-aos="zoom-in">Software Engineer/Robotics Engineer(Becoming)</h1>
+      <h2 data-aos="zoom-in">
         Hi, my name is <b>Steven Omole-Adebomi</b>
       </h2>
       <p>
@@ -23,8 +24,12 @@ const HeroInfo = () => {
         <i>"{qoutes[currentQouteNo - 1]}"</i>
       </p>
       <div>
-        <Button text="Contact Me" />
-        <span>{"Read More Qoutes from Me ->"}</span>
+        <a href="mailto:omosteven123@gmail.com">
+          <Button text="Contact Me" />
+        </a>
+        <span onClick={() => scrollToView("qoutes")}>
+          {"Read More Qoutes from Me ->"}
+        </span>
       </div>
     </div>
   );

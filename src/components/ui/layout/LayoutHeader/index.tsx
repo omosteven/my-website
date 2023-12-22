@@ -1,5 +1,6 @@
 import "./LayoutHeader.scss";
 import Icon from "components/ui/Icon";
+import { scrollToView } from "helpers";
 import { useState } from "react";
 
 const LayoutHeader = () => {
@@ -27,11 +28,15 @@ const LayoutHeader = () => {
       {show && (
         <div className="mobile-menu">
           <ul>
-            <li>{"->"} Hero</li>
-            <li>{"->"} Experience</li>
-            <li>{"->"} Career Interests</li>
-            <li>{"->"} Education</li>
-            <li>{"->"} Pick My Brain</li>
+            <li onClick={() => scrollToView("hero")}>{"->"} Hero</li>
+            <li onClick={() => scrollToView("experience")}>
+              {"->"} Experience
+            </li>
+            <li onClick={() => scrollToView("education")}>{"->"} Education</li>
+            <li onClick={() => scrollToView("interests")}>
+              {"->"} Career Interests
+            </li>
+            <li onClick={() => scrollToView("qoutes")}>{"->"} Pick My Brain</li>
           </ul>
         </div>
       )}

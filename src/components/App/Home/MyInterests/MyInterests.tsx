@@ -30,7 +30,7 @@ const MyInterests = () => {
   ];
 
   return (
-    <section className="my-interests">
+    <section className="my-interests" id="interests" data-aos="zoom-in">
       <h1>My Career Interests</h1>
       <p>My keen interests cut across these:</p>
       <div className="my-interests__list">

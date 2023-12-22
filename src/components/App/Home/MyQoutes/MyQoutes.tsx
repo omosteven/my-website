@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const MyQoutes = () => {
   return (
-    <section className="myqoutes">
+    <section className="myqoutes" id="qoutes" data-aos="zoom-in">
       <h1>My Qoutes</h1>
       <p>
         Gain some insights into your thought process through a few favourite
@@ -13,7 +13,7 @@ const MyQoutes = () => {
       </p>
 
       <Marquee speed={100} pauseOnHover>
-        <div className="myqoutes__list">
+        <div className="myqoutes__list" data-aos="zoom-in">
           {qoutes?.map((qoute, key) => (
             <MyQouteCard qoute={qoute} key={key} />
           ))}

@@ -17,9 +17,12 @@ const Experience = () => {
     },
   ];
   return (
-    <section className="experience">
+    <section className="experience" id="experience" data-aos="zoom-in">
       <h1>3+ Years Industrial Experience</h1>
-      <p>My experience in  the engineering industry cuts across these three software engineering fields</p>
+      <p>
+        My experience in the engineering industry cuts across these three
+        software engineering fields
+      </p>
       <div className="experience__list">
         {experiences?.map((item, key) => (
           <ExperienceCard {...item} key={key} />

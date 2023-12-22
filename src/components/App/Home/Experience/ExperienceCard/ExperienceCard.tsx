@@ -1,7 +1,7 @@
 const ExperienceCard = (props: { title: String; skills: Array<any> }) => {
   const { title, skills } = props;
   return (
-    <div className="experience-card">
+    <div className="experience-card" data-aos="zoom-in">
       <div>
         <h3>{title}</h3>
         <ul>
