@@ -1,0 +1,110 @@
+@import "components/ui/_variables";
+
+.hero {
+  height: fit-content;
+  //   width: 100%;
+  margin: 0;
+  padding: 40px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient(180deg, $black-color, $background-color);
+  @media screen and (max-width: $medium-screen) {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 24px;
+    padding-top: 100px;
+  }
+  &-info {
+    h2 {
+      color: $secondary-color;
+    }
+    h1 {
+      color: $white-color;
+      font-size: 44px;
+      @media screen and (max-width: $large-screen) {
+        font-size: 32px;
+      }
+
+      @media screen and (max-width: $medium-screen) {
+        font-size: 42px;
+      }
+      @media screen and (max-width: $small-screen) {
+        font-size: 32px;
+      }
+    }
+    p {
+      color: $white-muted-color;
+      line-height: 30px;
+      // span {
+      //   // font-weight: bold;
+      // }
+      i {
+        font-weight: bolder;
+        color: $white-color;
+        // background-color: black;
+      }
+    }
+    button {
+      background-color: transparent !important;
+    }
+    div {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      span {
+        color: $white-color;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        @media screen and (max-width: $large-screen) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  &-image {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+      // border: 0.1px solid $white-color;
+      border: 0.1px solid rgba($white-muted-color, 0.1);
+
+      background: $background-color;
+      width: 450px;
+      height: 450px;
+      border-radius: 10px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        width: 350px;
+        height: 400px;
+
+        @media screen and (max-width: $small-screen) {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+        }
+      }
+      @media screen and (max-width: $large-screen) {
+        width: 320px;
+      }
+      @media screen and (max-width: $medium-screen) {
+        width: 90%;
+      }
+      @media screen and (max-width: $small-screen) {
+        width: 100%;
+        height: fit-content;
+        border-radius: 10px;
+      }
+    }
+  }
+}

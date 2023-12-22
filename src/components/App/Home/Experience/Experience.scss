@@ -1,0 +1,55 @@
+@import "components/ui/_variables";
+
+.experience {
+  padding: 40px;
+  height: fit-content;
+  background-color: $background-color;
+  h1 {
+    color: $white-color;
+  }
+  p {
+    color: $white-muted-color;
+    max-width: 500px;
+    line-height: 20px;
+  }
+  @media screen and (max-width: $medium-screen) {
+    padding: 24px;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    height: fit-content;
+    @media screen and (max-width: $large-screen) {
+      gap: 30px;
+    }
+    @media screen and (max-width: $medium-screen) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media screen and (max-width: $medium-screen) {
+      grid-template-columns: 1fr;
+    }
+  }
+  &-card {
+    border: 0.1px solid rgba($white-muted-color, 0.1);
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    background: linear-gradient(180deg, $black-color, $background-color);
+    @media screen and (max-width: $medium-screen) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    div {
+      padding: 10px 20px;
+    }
+    h3 {
+      color: $primary-color;
+    }
+    ul {
+      color: $white-muted-color;
+      line-height: 32px;
+    }
+  }
+}

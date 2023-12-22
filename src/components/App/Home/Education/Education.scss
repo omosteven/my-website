@@ -1,0 +1,38 @@
+@import "components/ui/_variables";
+
+.education {
+  padding: 40px;
+  height: fit-content;
+  background-color: $background-color;
+  @media screen and (max-width: $medium-screen) {
+    padding: 24px;
+  }
+  h1 {
+    color: $white-color;
+  }
+  p {
+    color: $white-muted-color;
+    // max-width: 500px;
+    line-height: 20px;
+  }
+  h2 {
+    color: $primary-color;
+    @media screen and (max-width: $small-screen) {
+      font-size: 20px;
+    }
+  }
+  &__timeline {
+    border-left: 1px solid $primary-color;
+    padding-left: 16px;
+    h3 {
+      // color:rgba($primary-color,0.8);
+      color: white;
+      font-size: 18px;
+    }
+    p {
+      @media screen and (max-width: $small-screen) {
+        font-size: 14px;
+      }
+    }
+  }
+}
