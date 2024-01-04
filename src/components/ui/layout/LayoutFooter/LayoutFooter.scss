@@ -8,6 +8,11 @@
   @media screen and (max-width: $small-screen) {
     padding: 24px;
   }
+
+  a {
+    color: $white-color;
+    text-decoration: none;
+  }
   div {
     display: flex;
     align-items: center;
