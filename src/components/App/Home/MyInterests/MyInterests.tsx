@@ -12,11 +12,18 @@ const MyInterests = () => {
         "Mobile Healthcare",
         "Health Diagnosis",
         "Therapeutic Interventions",
+        "Autonomous Systems",
+        "Assistive Robotics",
       ],
     },
     {
-      title: "Industrial Experience",
-      list: ["Software Engineering", "Robotics", "IoT & Embedded Systems"],
+      title: "Industry",
+      list: [
+        "Software Engineering",
+        "Robotics",
+        "IoT & Embedded Systems",
+        "Machine Learning",
+      ],
     },
     {
       title: "Passion",
