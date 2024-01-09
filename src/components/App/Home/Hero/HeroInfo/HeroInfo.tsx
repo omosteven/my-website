@@ -1,6 +1,5 @@
-import { qoutes } from "assets/data";
+// import { qoutes } from "assets/data";
 import { Button } from "components/ui";
-import { scrollToView } from "helpers";
 // import { useEffect, useState } from "react";
 
 const HeroInfo = () => {
@@ -20,16 +19,21 @@ const HeroInfo = () => {
         Hi, my name is <b>Steven Omole-Adebomi</b>
       </h2>
       <p>
-        <span>I have something for you</span> -{" "}
-        <i>"{qoutes[6]}"</i>
+        And I am deeply passionate about addressing challenges in healthcare and
+        home assistance through the application of robotics, smart wearables,
+        embedded Systems, and software engineering to find innovative solutions.
+        {/* <i>"{qoutes[6]}"</i> */}
       </p>
       <div>
         <a href="mailto:omosteven123@gmail.com">
           <Button text="Contact Me" />
         </a>
-        <span onClick={() => scrollToView("qoutes")}>
-          {"Check More Quotes from Me ->"}
-        </span>
+        <a
+          href="https://docs.google.com/document/d/1dQUdYSvu-yDbPyp52yCY0jWyS8Q58ed1adSsuCSHzUE/edit?usp=sharing"
+          target="__blank"
+        >
+          {"View My CV"}
+        </a>
       </div>
     </div>
   );

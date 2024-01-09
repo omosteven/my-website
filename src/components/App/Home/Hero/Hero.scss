@@ -35,13 +35,15 @@
     }
     a {
       text-decoration: none !important;
+      color: white;
     }
     p {
       color: $white-muted-color;
       line-height: 30px;
-      height: 100px;
+      min-height: 100px;
+      font-size: 14px;
       @media screen and (max-width: $small-screen) {
-        height: 150px;
+        min-height: 150px;
       }
       // span {
       //   // font-weight: bold;
