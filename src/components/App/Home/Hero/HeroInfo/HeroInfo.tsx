@@ -14,9 +14,9 @@ const HeroInfo = () => {
 
   return (
     <div className="hero-info">
-      <h1 data-aos="zoom-in">Software Engineer</h1>
+      <h1 data-aos="zoom-in">Computer Engineer</h1>
       <h2 data-aos="zoom-in">
-        Hi, my name is <b>Steven Omole-Adebomi</b>
+        Hi, my name is <b>Steven Bolu Omole-Adebomi</b>
       </h2>
       <p>
         And I am deeply passionate about addressing challenges in healthcare and

@@ -8,7 +8,7 @@ const LayoutHeader = () => {
   return (
     <>
       <header className="layout-header">
-        <div className="logo">Steven Omole-Adebomi</div>
+        <div className="logo">Steven Bolu Omole-Adebomi</div>
         {/* <ul className="layout-header__items">
             <li>Home</li>
             <li>Who I Am</li>
@@ -36,6 +36,7 @@ const LayoutHeader = () => {
             <li onClick={() => scrollToView("interests")}>
               {"->"} Career Interests
             </li>
+            <li onClick={() => scrollToView("projects")}>{"->"} Projects</li>
             <li onClick={() => scrollToView("qoutes")}>{"->"} Pick My Brain</li>
           </ul>
         </div>

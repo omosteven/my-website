@@ -8,30 +8,31 @@ const MyInterests = () => {
       title: "Research",
       list: [
         "Medical Robotics",
-        "Wearables",
+        "Wearables & Bionics",
         "Mobile Healthcare",
         "Health Diagnosis",
-        "Therapeutic Interventions",
         "Autonomous Systems",
         "Assistive Robotics",
       ],
     },
     {
-      title: "Industry",
+      title: "Fields",
       list: [
-        "Software Engineering",
-        "Robotics",
-        "IoT & Embedded Systems",
         "Machine Learning",
+        "Computer Vision",
+        "Semiconductors",
+        "IoT & Embedded Systems",
+        "Robotics",
+        "Software Engineering",
       ],
     },
     {
       title: "Passion",
       list: [
         "Home Automation",
+        "Smart Healthcare",
         "Healthcare Advancement",
         "Accessible Tech Solutions",
-        "Workplace Productivity",
       ],
     },
   ];
