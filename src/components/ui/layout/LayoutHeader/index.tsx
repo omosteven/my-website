@@ -37,7 +37,7 @@ const LayoutHeader = () => {
               {"->"} Career Interests
             </li>
             <li onClick={() => scrollToView("projects")}>{"->"} Projects</li>
-            <li onClick={() => scrollToView("qoutes")}>{"->"} Pick My Brain</li>
+            {/* <li onClick={() => scrollToView("qoutes")}>{"->"} Pick My Brain</li> */}
           </ul>
         </div>
       )}

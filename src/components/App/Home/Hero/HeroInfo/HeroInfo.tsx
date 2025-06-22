@@ -29,7 +29,7 @@ const HeroInfo = () => {
           <Button text="Contact Me" />
         </a>
         <a
-          href="https://docs.google.com/document/d/1dQUdYSvu-yDbPyp52yCY0jWyS8Q58ed1adSsuCSHzUE/edit?usp=sharing"
+          href="https://www.canva.com/design/DAGm2DKqYvU/b4nZPrpz1MnTzO6hr9ixaA/view?utm_content=DAGm2DKqYvU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8cca6dd425"
           target="__blank"
         >
           {"View My CV"}

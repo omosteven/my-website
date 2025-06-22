@@ -4,9 +4,10 @@ import Experience from "./Experience/Experience";
 import Hero from "./Hero/Hero";
 // import Learning from "./Learning/Learning";
 import MyInterests from "./MyInterests/MyInterests";
-import MyQoutes from "./MyQoutes/MyQoutes";
+// import MyQoutes from "./MyQoutes/MyQoutes";
 import AOS from "aos";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
+import Projects from "./Projects/Projects";
 
 const Home = () => {
   useEffect(() => {
@@ -23,8 +24,9 @@ const Home = () => {
       <Experience />
       <Education />
       <MyInterests />
+      <Projects />
       {/* <Learning /> */}
-      <MyQoutes />
+      {/* <MyQoutes /> */}
     </>
   );
 };
